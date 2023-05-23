@@ -1,0 +1,15 @@
+{
+  "name": "test-jest",
+  "version": "0.0.1",
+  "description": "Test with Jest",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Signados",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
