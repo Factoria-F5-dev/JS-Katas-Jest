@@ -9,6 +9,8 @@
 
 # Pasos para iniciar el proyecto
 
+- gh repo clone signados/js-jest
+- cd js-test 
 - npm install
 - npm test
 - npm run test:watch
