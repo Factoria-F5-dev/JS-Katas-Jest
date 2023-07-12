@@ -11,6 +11,8 @@
 
 - npm install
 - npm test
+- node sumaTestManual.js
+- npm run test   
 - npm run test:watch
 
 # Referencias
