@@ -9,7 +9,7 @@ describe('contarLetras', () => {
           });
 
           test('Devuelve false si es menor de 10', () => {
-                    const expected = true;
+                    const expected = false;
                     const result = masDe10Letras('Java');
                     expect(expected).toBe(result);
           });
