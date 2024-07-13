@@ -1,3 +1,40 @@
+// Merge Sort
+function mergeSort(arr) {
+          if (arr.length <= 1) {
+                    return arr;
+          }
+
+          // Encontrar el punto medio del array
+          const mid = Math.floor(arr.length / 2);
+
+          // Dividir el array en dos mitades
+          const left = arr.slice(0, mid);
+          const right = arr.slice(mid);
+
+          // Ordenar recursivamente cada mitad
+          return merge(mergeSort(left), mergeSort(right));
+}
+
+function merge(left, right) {
+          let result = [];
+          let leftIndex = 0;
+          let rightIndex = 0;
+
+          // Combinar los arrays ordenados
+          while (leftIndex < left.length && rightIndex < right.length) {
+                    if (left[leftIndex] < right[rightIndex]) {
+                              result.push(left[leftIndex]);
+                              leftIndex++; // Mover el índice hacia la derecha
+                    } else {
+                              result.push(right[rightIndex]);
+                              rightIndex++; // Mover el índice hacia la derecha
+                    }
+          }
+
+          // Concatenar los elementos restantes de los subarrays
+          return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
+}
+
 
 // Implementación de Bubble Sort
 function bubbleSort(arr) {
@@ -41,6 +78,7 @@ function quickSort(arr) {
 
 module.exports = {
           quickSort,
-          bubbleSort
+          bubbleSort,
+          mergeSort
 };
 
