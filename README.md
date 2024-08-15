@@ -1,6 +1,6 @@
 <img src="https://jorgebenitezlopez.com/tiddlywiki/pro/Test-Driven-Development.png" width="100%">
 
-# Katas de JS y test básicos con Jest
+# Katas de JS y test con Jest
 
 # Requisitos
 

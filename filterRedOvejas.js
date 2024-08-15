@@ -1,12 +1,16 @@
-function filterRedOvejas(ovejas) {
-    filter = []
-    ovejas.map(o => {
-        if(o.color == 'rojo') {
-          filter.push(o);
-        }
-    })
-    return filter;
-}
+// function filterRedOvejas(ovejas) {
+//           filter = []
+//           ovejas.map(o => {
+//                     if (o.color == 'rojo') {
+//                               filter.push(o);
+//                     }
+//           })
+//           return filter;
+// }
 
-module.exports = filterRedOvejas; 
-  
+const filterRedOvejas = ovejas => ovejas.filter(o => o.color == 'rojo');
+
+module.exports = filterRedOvejas;
+
+
+
