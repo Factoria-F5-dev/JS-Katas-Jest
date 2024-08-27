@@ -13,8 +13,8 @@
 - cd js-test 
 - npm install
 - npm test
-- node sumaTestManual.js
-- npm run test   
+- Ejecutar uno: npm run test filterRedOvejas.test.js
+- Ejecutar todos:  npm run test   
 - npm run test:watch
 
 # Referencias
