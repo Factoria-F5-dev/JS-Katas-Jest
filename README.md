@@ -17,6 +17,10 @@
 - Ejecutar todos:  npm run test   
 - npm run test:watch
 
+# Más
+
+Hay un workflows de github que ejecuta los test cuando sube
+
 # Referencias
 
 - https://jestjs.io/es-ES/
